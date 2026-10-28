@@ -29,6 +29,6 @@ public sealed class AssetServiceTest : IAsyncLifetime
         var assets = assetService.GetAssets();
 
         // Then
-        Assert.Equal(2, assets.Count());
+        Assert.Fail(); // Assert.Equal(2, assets.Count());
     }
 }
